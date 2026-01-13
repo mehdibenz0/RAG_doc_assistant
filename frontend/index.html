@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Document Intelligence Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>Document Intelligence Assistant</h1>
+    <p class="subtitle">AI-powered document understanding</p>
+
+    <section>
+      <input type="file" id="fileInput" />
+      <button onclick="upload()">Index Document</button>
+    </section>
+
+    <section>
+      <textarea id="question" placeholder="Ask a question..."></textarea>
+      <button onclick="ask()">Ask</button>
+    </section>
+
+    <div id="response"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+class DocumentNotIndexedError(Exception):
+    pass
